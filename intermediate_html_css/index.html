@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="example.com/path" method="post">
+        <fieldset>
+            <legend>User Login</legend>
+            <label for="user_name">Username:</label>
+            <input type="text" id="user_name" placeholder="Enter Username...">
+        
+            <label for="user_email">Email Address:</label>
+            <input type="email" id="user_email" name="email" placeholder="you@example.com" required>
+
+            <label for="user_password">Password:</label>
+            <input type="password" id="user_password" name="password" placeholder="enter password..." minlength="8" maxlength="20">
+
+            <label for="dateOfBirth">Date of Birth:</label>
+            <input type="date" id="dateOfBirth" name="dateOfBirth">
+
+            <textarea rows="20" cols="60">Some initial content</textarea>
+        </fieldset>
+
+        <select name="Car">
+            <optgroup label="Luxury">
+                <option value="mercedes">Mercedes</option>
+                <option value="tesla">Tesla</option>
+                <option value="bmw">Volvo</option>
+            </optgroup>
+            <optgroup label="Value">
+                <option value="subaru" selected>Subaru</option>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="mazda">Mazda</option>
+            </optgroup>
+        </select>
+
+        <h3>Ticket Type</h3>
+        <div>
+            <input type="radio" id="child" name="ticket_type" value="child">
+            <label for="child">Child</label>
+        </div>
+
+        <div>
+            <input type="radio" id="adult" name="ticket_type" value="adult">
+            <label for="adult">Adult</label>
+        </div>
+
+        <div>
+            <input type="radio" id="senior" name="ticket_type" value="senior">
+            <label for="senior">Senior</label>
+        </div>
+    
+        <h3>Pizza Toppings</h3>
+        <div>
+            <input type="checkbox" id="pepperoni" name="topping" value="pepperoni">
+            <label for="pepperoni">Pepperoni</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="sausage" name="topping" value="sausage">
+            <label for="sausage">Sausage</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+            <label for="mushrooms">Mushrooms</label>
+        </div>
+        <div>
+            <input type="checkbox" id="pineapple" name="topping" value="pineapple">
+            <label for="pineapple">Pineapple</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="newsletter" name="newsletter" checked>
+            <label for="newsletter">subscribe to our newsletter</label>
+        </div>
+
+        <button>click me</button>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button">Click to Toggle</button>
+
+
+
+
+</body>
+</html>
