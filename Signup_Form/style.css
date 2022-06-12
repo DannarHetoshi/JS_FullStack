@@ -58,7 +58,7 @@
 }
 
 .DH-HG-content {
-    background: #FFFFFF;
+    background: rgb(255 255 255 / 70%);
     order: 2;
     padding: 0.5em;
     display: flex;
